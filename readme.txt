@@ -7,6 +7,8 @@ Requires at least: 2.7
 Tested up to: 3.4.2
 Stable tag: 1.0
 License : GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 This plugin will disable all non-admin users from creating new posts in your blog. The "add new" submenu will also be hidden in the user dashboard.
 
@@ -32,8 +34,7 @@ The "add new" submenu item will also be hidden from these users in the user's da
 
 None
 
-
-= Feedback, Questions, Help, and Suggestions ==
+= Feedback, Help, and Suggestions ==
 
 Just post an email to: rcstoltz@gmail.com with email subject: WP Restrict User 'ADD NEW POST' Capability
 
@@ -49,6 +50,7 @@ None
 3. The permission error message
 4. Non-admin user validation
 
+
 == Changelog ==
 
 None
@@ -57,8 +59,6 @@ None
 
 First Release Version
 
-== Donations ==
+== Thumbs Up ==
 
-If you would like to support further development of this plugin, please consider making a donation:
-
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HR8AP98Y8W2WW
+Like our WP antiProxy plugin? Don't forget to give us a rating.
