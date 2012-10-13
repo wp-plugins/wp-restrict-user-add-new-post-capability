@@ -10,7 +10,7 @@ License : GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
-This plugin will disable all non-admin users from creating new posts in your blog. The "add new" submenu will also be hidden in the user dashboard.
+This plugin specifically disables all non-admin users (with posting capability), from creating and adding new POSTS from the user dashboard.
 
 
 == Description ==
