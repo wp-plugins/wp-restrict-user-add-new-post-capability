@@ -16,7 +16,7 @@ This plugin specifically disables all non-admin users (with posting capability),
 == Description ==
 
 This plugin specifically disables all non-admin users (with posting capability), from creating and adding new POSTS from the user dashboard. However, all standard roles 
-assigned to the respective user levels (mainly EDITOR and AUTHOR), will remain the same - un-affected. 
+assigned to the respective user levels (mainly EDITOR and AUTHOR), will remain the same.
 
 
 The "add new" submenu item will also be hidden from these users in the user's dashboard.
@@ -31,10 +31,10 @@ The "add new" submenu item will also be hidden from these users in the user's da
 
 
 == Frequently Asked Questions ==
-
 None
 
-= Feedback, Help, and Suggestions ==
+
+== Feedback, Help, and Suggestions ==
 
 Just post an email to: rcstoltz@gmail.com with email subject: WP Restrict User 'ADD NEW POST' Capability
 
