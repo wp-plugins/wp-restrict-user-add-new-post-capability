@@ -61,4 +61,4 @@ First Release Version
 
 == Thumbs Up ==
 
-Like our WP antiProxy plugin? Don't forget to give us a rating.
+Like our WP plugin? Don't forget to give us a rating.
