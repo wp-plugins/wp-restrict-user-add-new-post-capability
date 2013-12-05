@@ -1,11 +1,11 @@
-=== WP Restrict User 'ADD NEW POST' Capability ===
+=== Remove 'ADD NEW POST' (from non-admin users) ===
 
 Contributors: RS Publishing
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HR8AP98Y8W2WW
-Tags: add new, restrict posting, non-admin, user, capability, role, prevent, limits, post limit, new-post, remove, stop, hide
+Tags: add new, restrict posting, non-admin, user, user roles, prevent, limit, post limit, new-post, remove, stop, hide
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NMCXDH29TXS8U
 Requires at least: 2.7
-Tested up to: 3.4.2
-Stable tag: 1.0
+Tested up to: 3.7.1
+Stable tag: 1.0.1
 License : GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,12 +36,13 @@ None
 
 == Feedback, Help, and Suggestions ==
 
-Just post an email to: rcstoltz@gmail.com with email subject: WP Restrict User 'ADD NEW POST' Capability
+Just post an email to: rcstoltz@gmail.com with email subject: Remove 'ADD NEW POST'
 
 
 == Upgrade Notice ==
 
-None
+= Version 1.0.1 = 
+
 
 == Screenshots ==
 
@@ -53,11 +54,20 @@ None
 
 == Changelog ==
 
-None
-
 = Version 1.0 =
 
 First Release Version
+
+= 1.0.1 =
+
+* tested compatibility with v3.7.1
+* added blank index file to trunk (security)
+* truncated initial plugin name
+* included donation link
+* included temp banner
+* updated keywords
+* updated readme
+
 
 == Thumbs Up ==
 
