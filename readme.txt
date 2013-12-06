@@ -1,6 +1,6 @@
 === Remove 'ADD NEW POST' (non-admin users) ===
 
-Contributors: RS Publishing
+Contributors: RSPublishing
 Tags: add new, restrict posting, non-admin, user, user roles, prevent, limit, post limit, new-post, remove, stop, hide
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NMCXDH29TXS8U
 Requires at least: 2.7
@@ -64,6 +64,7 @@ First Release Version
 * added blank index file to trunk (security)
 * truncated initial plugin name
 * included donation link
+* corrected author name
 * included temp banner
 * updated keywords
 * updated readme
