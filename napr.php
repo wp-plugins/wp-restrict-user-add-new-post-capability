@@ -1,15 +1,15 @@
 <?php
 
 /*
-  Plugin Name: Remove 'ADD NEW POST' (from non-admin users)
+  Plugin Name: Remove 'new post' (non-admin users)
   Plugin URI: http://wordpress.org/extend/plugins/wp-restrict-user-add-new-post-capability/
   Description: This plugin will disable all non-admin users from creating new posts in your blog. The "add new" page submenu item will also be hidden in the user dashboard. 
-  Version: 1.0.1
-  Author: RS Publishing
+  Version: 1.0.2
+  Author: RSPublishing
  */
 
 /*
-  Copyright 2012  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
+  Copyright 2013/2014  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -40,15 +40,13 @@ function capa_modif() {
 }
 
 function men_modif() {
- 	global $submenu;  
+ 	global $submenu;
      	$submenu['edit.php'][10][1] = 'publish_posts';
 }
 
 function hide_anb() {
   global $current_screen;
-  
-  if($current_screen->id == 'edit-post' && !current_user_can('publish_posts'))
-  {
+  if($current_screen->id == 'edit-post' && !current_user_can('publish_posts')) {
     echo '<style>.add-new-h2{display: none;}</style>';  
   }
 }
@@ -65,8 +63,7 @@ function permissions_admin_notice() {
 }
 
 function redir_noti() {
-  if($_GET['permissions_error'])
-  {
+  if($_GET['permissions_error']) {
     add_action('admin_notices', 'permissions_admin_notice');  
   }
 }
