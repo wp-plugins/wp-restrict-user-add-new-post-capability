@@ -2,14 +2,17 @@
 
 /*
   Plugin Name: Remove 'new post' (non-admin users)
-  Plugin URI: http://wordpress.org/extend/plugins/wp-restrict-user-add-new-post-capability/
+  Plugin URI: http://yooplugins.com/
   Description: This plugin will disable all non-admin users from creating new posts in your blog. The "add new" page submenu item will also be hidden in the user dashboard. 
-  Version: 1.0.2
+  Version: 1.0.3
   Author: RSPublishing
+  Author URI: http://yooplugins.com/
+  License: GPLv2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
 /*
-  Copyright 2013/2014  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
+  Copyright 2013/2014  Rynaldo Stoltz  (email : support@yooplugins.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
