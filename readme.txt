@@ -1,4 +1,4 @@
-=== Remove ADD NEW POST Capability (from non-admin users) ===
+=== Remove ADD NEW POST Capability ===
 
 Contributors: RSPublishing
 Tags: add new, restrict posting, non-admin, user, user roles, prevent, limit, post limit, disable, remove, post, hide
