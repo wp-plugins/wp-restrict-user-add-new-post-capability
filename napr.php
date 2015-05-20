@@ -4,7 +4,7 @@
   Plugin Name: Remove ADD NEW POST Capability (from non-admin users)
   Plugin URI: http://yooplugins.com/
   Description: This plugin will disable all non-admin users from creating new posts in your blog. The submenu item will also be hidden in the user dashboard. 
-  Version: 1.1
+  Version: 1.2
   Author: RSPublishing
   Author URI: http://yooplugins.com/
   License: GPLv2 or later

@@ -4,8 +4,8 @@ Contributors: RSPublishing
 Tags: add new, restrict posting, non-admin, user, user roles, prevent, limit, post limit, disable, remove, post, hide
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NMCXDH29TXS8U
 Requires at least: 3.1
-Tested up to: 4.1.2
-Stable tag: 1.1
+Tested up to: 4.2.2
+Stable tag: 1.2
 License : GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,10 @@ This plugin specifically disables all non-admin users (with posting capability),
 assigned to the respective user levels (mainly EDITOR and AUTHOR), will remain the same.
 
 The 'add new' submenu item will also be hidden from these users.
+
+= About = 
+
+The Remove ADD NEW POST Capability plugin is maintained by [YOOPlugins.com](http://yooplugins.com/)
 
 == Installation ==
 
@@ -34,7 +38,7 @@ Just post an email to: rcstoltz@gmail.com with email subject: Remove 'ADD NEW PO
 
 == Upgrade Notice ==
 
-= Version 1.1 = 
+= Version 1.2 = 
 
 == Screenshots ==
 
@@ -72,3 +76,9 @@ First Release Version
 * renamed plugin name
 * added rating link
 * added icons
+
+= 1.2 =
+* tested compatibility with core 4.2.2
+* added banner and icon assets
+* updated version number
+* general housekeeping
